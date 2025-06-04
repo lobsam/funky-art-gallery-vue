@@ -62,18 +62,18 @@ const Gallery = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent mb-4">
-            Featured Gallery
+            My work
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          {/* <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Dive into a world of vibrant colors and bold expressions
-          </p>
+          </p> */}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {artPieces.map((piece) => (
             <div
               key={piece.id}
-              className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-100 to-gray-200 border border-gray-200 hover-scale"
+              className="group relative overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 border border-gray-200 hover-scale"
               onMouseEnter={() => setHoveredItem(piece.id)}
               onMouseLeave={() => setHoveredItem(null)}
             >
@@ -93,7 +93,7 @@ const Gallery = () => {
                   <h3 className="text-xl font-bold text-white mb-1">{piece.title}</h3>
                   <p className="text-pink-300 text-sm mb-4">{piece.category}</p>
                   
-                  <div className="flex items-center justify-between">
+                  {/* <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-4 text-white/80">
                       <div className="flex items-center space-x-1">
                         <Heart className="h-4 w-4" />
@@ -104,16 +104,16 @@ const Gallery = () => {
                         <span className="text-sm">{piece.views}</span>
                       </div>
                     </div>
-                    <button className="p-2 bg-pink-500 rounded-full hover:bg-pink-600 transition-colors">
+                    <button className="p-2 bg-pink-500  -full hover:bg-pink-600 transition-colors">
                       <Share2 className="h-4 w-4 text-white" />
                     </button>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
               {/* Floating category tag */}
               <div className="absolute top-4 left-4">
-                <span className="px-3 py-1 bg-gradient-to-r from-pink-500 to-orange-500 text-white text-xs font-semibold rounded-full">
+                <span className="px-3 py-1 bg-gradient-to-r from-pink-500 to-orange-500 text-white text-xs font-semibold  -full">
                   {piece.category}
                 </span>
               </div>
@@ -121,11 +121,11 @@ const Gallery = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <button className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-full hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-purple-500/25">
+        {/* <div className="text-center mt-12">
+          <button className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold  -full hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-purple-500/25">
             View All Artworks
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

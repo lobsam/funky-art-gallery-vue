@@ -38,7 +38,7 @@ const About = () => {
               {["Multi-disciplinary Art", "Buddhist Philosophy", "Mixed Media", "Contemporary Art", "Tibetan Culture"].map((skill) => (
                 <span
                   key={skill}
-                  className="px-4 py-2 bg-gradient-to-r from-purple-100 to-pink-100 border border-purple-200 text-purple-700 rounded-full text-sm"
+                  className="px-4 py-2 bg-gradient-to-r from-purple-100 to-pink-100 border border-purple-200 text-purple-700  -full text-sm"
                 >
                   {skill}
                 </span>
@@ -47,14 +47,14 @@ const About = () => {
           </div>
           
           <div className="relative">
-            <div className="aspect-square rounded-2xl bg-gradient-to-br from-pink-100 to-orange-100 border border-gray-200 overflow-hidden">
+            <div className="aspect-square bg-gradient-to-br from-pink-100 to-orange-100 border border-gray-200 overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=600&h=600&fit=crop"
                 alt="Artist at work"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center">
+            <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-r from-pink-500 to-orange-500  -full flex items-center justify-center">
               <Palette className="h-12 w-12 text-white" />
             </div>
           </div>

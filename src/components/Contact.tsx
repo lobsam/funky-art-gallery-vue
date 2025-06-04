@@ -63,7 +63,7 @@ const Contact = () => {
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200 rounded-2xl p-8">
+          {/* <div className="bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200  -2xl p-8">
             <h3 className="text-2xl font-bold text-gray-800 mb-6">Send a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-4">
@@ -77,7 +77,7 @@ const Contact = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-gray-800 placeholder-gray-500 focus:outline-none focus:border-pink-400 transition-colors"
+                    className="w-full px-4 py-3 bg-white border border-gray-300  -lg text-gray-800 placeholder-gray-500 focus:outline-none focus:border-pink-400 transition-colors"
                     placeholder="Your name"
                     required
                   />
@@ -92,7 +92,7 @@ const Contact = () => {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-gray-800 placeholder-gray-500 focus:outline-none focus:border-pink-400 transition-colors"
+                    className="w-full px-4 py-3 bg-white border border-gray-300  -lg text-gray-800 placeholder-gray-500 focus:outline-none focus:border-pink-400 transition-colors"
                     placeholder="your@email.com"
                     required
                   />
@@ -108,7 +108,7 @@ const Contact = () => {
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-gray-800 placeholder-gray-500 focus:outline-none focus:border-pink-400 transition-colors"
+                  className="w-full px-4 py-3 bg-white border border-gray-300  -lg text-gray-800 placeholder-gray-500 focus:outline-none focus:border-pink-400 transition-colors"
                   placeholder="What's this about?"
                   required
                 />
@@ -123,20 +123,20 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   rows={6}
-                  className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-gray-800 placeholder-gray-500 focus:outline-none focus:border-pink-400 transition-colors resize-none"
+                  className="w-full px-4 py-3 bg-white border border-gray-300  -lg text-gray-800 placeholder-gray-500 focus:outline-none focus:border-pink-400 transition-colors resize-none"
                   placeholder="Tell me about your project..."
                   required
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full px-8 py-4 bg-gradient-to-r from-pink-500 to-orange-500 text-white font-semibold rounded-lg hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-pink-500/25 flex items-center justify-center gap-2"
+                className="w-full px-8 py-4 bg-gradient-to-r from-pink-500 to-orange-500 text-white font-semibold  -lg hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-pink-500/25 flex items-center justify-center gap-2"
               >
                 Send Message
                 <Send className="h-4 w-4" />
               </button>
             </form>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
           <div className="space-y-8">
@@ -147,9 +147,9 @@ const Contact = () => {
                   <a
                     key={index}
                     href={info.href}
-                    className="flex items-center space-x-4 p-4 bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200 rounded-xl hover:border-pink-400/30 transition-colors group"
+                    className="flex items-center space-x-4 p-4 bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200  -xl hover:border-pink-400/30 transition-colors group"
                   >
-                    <div className="p-3 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full group-hover:scale-110 transition-transform">
+                    <div className="p-3 bg-gradient-to-r from-pink-500 to-orange-500  -full group-hover:scale-110 transition-transform">
                       <info.icon className="h-5 w-5 text-white" />
                     </div>
                     <div>
@@ -168,7 +168,7 @@ const Contact = () => {
                   <a
                     key={index}
                     href={social.href}
-                    className="p-3 bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200 rounded-xl hover:border-pink-400/30 transition-colors hover:scale-110"
+                    className="p-3 bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200  -xl hover:border-pink-400/30 transition-colors hover:scale-110"
                     aria-label={social.label}
                   >
                     <social.icon className="h-6 w-6 text-pink-400" />
@@ -177,7 +177,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="p-6 bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200 rounded-xl">
+            <div className="p-6 bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200  -xl">
               <h4 className="text-lg font-bold text-gray-800 mb-2">Commission Work</h4>
               <p className="text-gray-600 text-sm leading-relaxed">
                 I'm currently accepting commission work for digital art pieces, custom illustrations, 

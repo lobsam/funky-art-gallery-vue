@@ -47,7 +47,7 @@ const Navigation = () => {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden animate-fade-in">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-white border border-gray-200 rounded-lg mt-2">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-white border border-gray-200  -lg mt-2">
               {navItems.map((item) => (
                 <a
                   key={item}
