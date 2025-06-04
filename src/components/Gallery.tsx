@@ -58,13 +58,13 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="gallery" className="py-20 px-4">
+    <section id="gallery" className="py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent mb-4">
             Featured Gallery
           </h2>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Dive into a world of vibrant colors and bold expressions
           </p>
         </div>
@@ -73,7 +73,7 @@ const Gallery = () => {
           {artPieces.map((piece) => (
             <div
               key={piece.id}
-              className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-purple-900/50 to-pink-900/50 backdrop-blur-sm border border-white/10 hover-scale"
+              className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-100 to-gray-200 border border-gray-200 hover-scale"
               onMouseEnter={() => setHoveredItem(piece.id)}
               onMouseLeave={() => setHoveredItem(null)}
             >

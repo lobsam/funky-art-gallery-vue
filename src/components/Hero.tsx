@@ -3,7 +3,7 @@ import { ArrowDown } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4">
+    <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4 bg-white">
       <div className="max-w-4xl mx-auto text-center">
         <div className="animate-fade-in">
           <h1 className="text-6xl md:text-8xl font-bold mb-6">
@@ -16,7 +16,7 @@ const Hero = () => {
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Experience art like never before. Bold, vibrant, and utterly mesmerizing creations that push the boundaries of imagination.
           </p>
           
