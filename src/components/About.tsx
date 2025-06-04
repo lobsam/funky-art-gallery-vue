@@ -10,29 +10,32 @@ const About = () => {
             About the Artist
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Passionate creator bringing vibrant visions to life through digital art
+            Multi-disciplinary Tibetan artist exploring identity, Buddhism, and contemporary expression
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-3xl font-bold text-gray-800 mb-4">
-              Creating Art That Speaks to the Soul
+              Tenzin Melak
             </h3>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Welcome to my world of funky, vibrant art! I'm a digital artist with a passion for 
-              creating pieces that challenge the ordinary and celebrate the extraordinary. My work 
-              blends bold colors, dynamic compositions, and imaginative concepts to create art 
-              that doesn't just hang on walls—it transforms spaces and emotions.
+              Tenzin Melak is a Multi-disciplinary Tibetan artist, born in India, and currently based in Dharamsala, the exile capital of Tibet. After completing his formal education from TCV, he followed his personal quest of becoming a visual artist by obtaining a BFA in Applied Art at the College of Art, University of Delhi.
             </p>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Each piece I create tells a story, whether it's about the electric energy of city 
-              nights, the cosmic dance of colors in space, or the raw power of abstract emotions. 
-              I believe art should make you feel something, and I pour that philosophy into every 
-              brushstroke and pixel.
+              Being brought up in an environment where Buddhist values and morality were deeply intertwined with the daily upbringing of Tibetan children in exile, and later his own venture into different phases of life, most of Melak's artworks reflect upon the formation of one's identity in Buddhist's life world, the question of self-reflexivity and illusion, the foundation of truth and suffering in Tibetan Buddhist philosophy, the contradiction of theory and practices of Buddhism prevalent in Tibetan society and the world at large.
+            </p>
+            <p className="text-gray-600 text-lg leading-relaxed">
+              And most importantly his own interpretation of Tibetan Buddhist philosophy and practices. In a way, it presents the inseparability of his artworks and life experiences.
+            </p>
+            <p className="text-gray-600 text-lg leading-relaxed">
+              Deviating from the principal medium of Tibetan traditional art making, (which is painting) yet skillfully appropriating them in the creative process, his art-making styles and materials are unconventional, distinctive, and diverse. Using everyday objects found in our surroundings such as mirrors, prayer flags, stickers, candles, glasses, and the national flag, he has given equal attention to the materiality of each object - through which his artworks are formed - and it also acts as an extension of different colors in his artworks.
+            </p>
+            <p className="text-gray-600 text-lg leading-relaxed">
+              The themes, subjects, and materials he has employed in his work have made his arts look familiar yet indefinable, and it also opens up a space for any audience who can project their thoughts and imagination. Over the many years working as a Tibetan visual artist, Melak did numerous commissioned works.
             </p>
             <div className="flex flex-wrap gap-3 mt-6">
-              {["Digital Art", "Abstract", "Pop Art", "Space Art", "Street Art"].map((skill) => (
+              {["Multi-disciplinary Art", "Buddhist Philosophy", "Mixed Media", "Contemporary Art", "Tibetan Culture"].map((skill) => (
                 <span
                   key={skill}
                   className="px-4 py-2 bg-gradient-to-r from-purple-100 to-pink-100 border border-purple-200 text-purple-700 rounded-full text-sm"
