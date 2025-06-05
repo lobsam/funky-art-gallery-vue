@@ -1,14 +1,14 @@
 
-import Gallery from "../components/Gallery";
+import About from "../components/About";
 import Navigation from "../components/Navigation";
 
-const GalleryPage = () => {
+const AboutPage = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navigation />
-      <Gallery />
+      <About />
     </div>
   );
 };
 
-export default GalleryPage;
+export default AboutPage;
