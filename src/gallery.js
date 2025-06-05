@@ -1,0 +1,51 @@
+
+export const artPieces = [
+    {
+      id: 1,
+      title: "30 Tibetan Alphabet",
+      category: "Digital Art",
+      image: "https://i.ibb.co/yB8wS9vx/Whats-App-Image-2025-06-03-at-5-18-23-PM-1.jpg",
+      created: 2000,
+      size: 1234,
+    },
+    {
+      id: 2,
+      title: "Neon Nights",
+      category: "Abstract",
+      image: "https://i.ibb.co/RTGYpCwj/Whats-App-Image-2025-06-03-at-5-18-23-PM-2.jpg",
+      created: 89,
+      size: "",
+    },
+    {
+      id: 3,
+      title: "Favorite",
+      category: "Acrylic and Prayer Flags on Canvas",
+      image: "https://i.ibb.co/zV7HYXp0/Whats-App-Image-2025-06-03-at-5-18-15-PM.jpg",
+      created: 156,
+      size: "18.5 x 12.5 inches",
+    },
+    {
+      id: 4,
+      title: "Urban Pulse",
+      category: "Street Art",
+      image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=500&h=600&fit=crop",
+      created: 203,
+      size: 1567,
+    },
+    {
+      id: 5,
+      title: "Liquid Gold",
+      category: "Abstract",
+      image: "https://images.unsplash.com/photo-1549490349-8643362247b5?w=500&h=600&fit=crop",
+      created: 98,
+      size: 743,
+    },
+    {
+      id: 6,
+      title: "Rainbow Burst",
+      category: "Pop Art",
+      image: "https://images.unsplash.com/photo-1549887534-1541e9326642?w=500&h=600&fit=crop",
+      created: 174,
+      size: 1876,
+    },
+  ];

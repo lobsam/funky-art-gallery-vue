@@ -11,22 +11,15 @@ const Landing = () => {
 
   return (
     <div className="min-h-screen bg-white flex items-center justify-center">
-      <div className="text-center cursor-pointer" onClick={handleLogoClick}>
+      <div className=" w-30 h-30 text-center cursor-pointer" onClick={handleLogoClick}>
         <div className="flex items-center justify-center space-x-4 mb-4">
-          <Palette className="h-16 w-16 text-pink-500" />
+          {/* <Palette className="h-16 w-16 text-pink-500" /> */}
         </div>
-        <h1 className="text-8xl md:text-9xl font-bold">
-          <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-orange-500 bg-clip-text text-transparent">
-            FUNKY
-          </span>
-          <br />
-          <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
-            ART
-          </span>
-        </h1>
-        <p className="text-xl text-gray-600 mt-6 max-w-2xl mx-auto">
-          Click to explore amazing artworks
-        </p>
+        <img
+          src="src/img/logo.jpeg"
+          alt="Artist at work"
+          className="w-full h-full object-cover"
+        />
       </div>
     </div>
   );

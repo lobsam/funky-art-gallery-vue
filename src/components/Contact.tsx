@@ -51,7 +51,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20 px-4 bg-white">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent mb-4">
             Let's Create Together
@@ -61,7 +61,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-1">
           {/* Contact Form */}
           {/* <div className="bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200  -2xl p-8">
             <h3 className="text-2xl font-bold text-gray-800 mb-6">Send a Message</h3>
