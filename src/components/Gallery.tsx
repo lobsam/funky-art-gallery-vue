@@ -23,8 +23,8 @@ const Gallery = () => {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 grid-rows-3 gap-8 max-w-md mx-auto">
-            {artPieces.slice(0, 3).map((piece) => (
+          <div className="grid grid-cols-1 grid-rows-110 gap-8 max-w-xl mx-auto">
+            {artPieces.map((piece) => (
               <div
                 key={piece.id}
                 className="group relative overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 border border-gray-200 hover-scale cursor-pointer"
@@ -36,7 +36,7 @@ const Gallery = () => {
                   <img
                     src={piece.image}
                     alt={piece.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-full object-cover"
                   />
                 </div>
                 
@@ -72,14 +72,14 @@ const Gallery = () => {
           </DialogHeader>
           {selectedPiece && (
             <div className="w-full">
-              <div className="aspect-[4/3] overflow-hidden rounded-lg">
+              <div className=" overflow-hidden">
                 <img
                   src={selectedPiece.image}
                   alt={selectedPiece.title}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="mt-4 space-y-2">
+              <div className="mt-2 space-y-2">
                 <p className="text-sm text-gray-600">
                   <strong>Category:</strong> {selectedPiece.category}
                 </p>
