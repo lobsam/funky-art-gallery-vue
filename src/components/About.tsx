@@ -18,7 +18,7 @@ const About = () => {
         <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-pink-100 to-orange-100 border border-gray-200 overflow-hidden">
               <img
-                src="src/img/profile.jpeg"
+                src="https://i.ibb.co/yc1FVtYw/Whats-App-Image-2025-06-04-at-3-02-39-PM.jpg"
                 alt="Artist at work"
                 className="w-full h-full object-cover"
               />
