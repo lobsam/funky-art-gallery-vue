@@ -4,7 +4,7 @@ import { Palette } from "lucide-react";
 const About = () => {
   return (
     <section id="about" className="py-20 px-4 bg-white">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-2xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent mb-4">
             About the Artist

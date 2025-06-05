@@ -51,7 +51,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20 px-4 bg-white">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-2xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent mb-4">
             Let's Create Together

@@ -16,14 +16,14 @@ const Landing = () => {
       }}
     >
       {/* Dark overlay for better contrast */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/10"></div>
       
       <div className="relative z-10 w-80 h-80 text-center cursor-pointer group" onClick={handleLogoClick}>
-        <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-2xl hover:bg-white/95 transition-all duration-300 group-hover:scale-105">
+        <div className="bg-white/10 backdrop-blur-sm p-8 shadow-2xl hover:bg-white/95 transition-all duration-300 group-hover:scale-105">
           <img
             src="src/img/logo.jpeg"
             alt="Artist logo"
-            className="w-full h-full object-cover rounded-xl"
+            className="w-full h-full object-cover"
           />
         </div>
       </div>
