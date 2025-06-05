@@ -21,8 +21,8 @@ const Gallery = () => {
           </p> */}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
-          {artPieces.map((piece) => (
+        <div className="grid grid-cols-1 grid-rows-3 gap-8 max-w-md mx-auto">
+          {artPieces.slice(0, 3).map((piece) => (
             <div
               key={piece.id}
               className="group relative overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 border border-gray-200 hover-scale"
